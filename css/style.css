@@ -60,6 +60,15 @@
     filter: grayscale(100%);
 }
 
+.section-one-content img {
+    transition: 0.3s ease transform;
+}
+
+.section-one-content img:hover {
+    transform: scale(1.1);
+}
+
+
 /* ---------------------
   section two Clients
 ------------------------*/
