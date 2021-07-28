@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;500;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 #header-section {
     background-color: #264653;
 }
@@ -126,4 +133,60 @@
 .section-three-content .accords-two,
 .section-three-content .accords-one {
     border: 1px solid gray;
+}
+
+/* ---------------------
+  section four Categories
+------------------------*/
+
+.section-four-container {
+    margin-top: 5rem;
+}
+
+.section-four-content h3 {
+    position: relative;
+}
+
+.section-four-content-one img,
+.section-four-content-two img {
+    transition: 0.3s ease transform;
+}
+
+.section-four-content-one img:hover,
+.section-four-content-two img:hover {
+    transform: scale(1.1);
+}
+
+.section-four-content h3::after {
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 2.5rem;
+    bottom: 0px;
+    height: 1px;
+    width: 6.563rem;
+    transform: translate(-50%, 0);
+    border-bottom: 6px solid;
+    border-image: linear-gradient(to right, #FF9C35, #FFD019) 1;
+    -moz-border-image: linear-gradient(to right, #FF9C35, #FFD019) 1;
+    -webkit-border-image: linear-gradient(to right, #FF9C35, #FFD019) 1;
+}
+
+
+.section-four-content-one h5 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.section-four-card-one {
+    border-radius: 4px 20px 4px 40px;
+}
+
+.section-four-card-two {
+    border-radius: 20px 4px 40px 4px;
+}
+
+.section-four-card-three {
+    border-radius: 20px 4px 40px 4px;
 }
