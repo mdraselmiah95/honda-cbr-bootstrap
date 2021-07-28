@@ -120,3 +120,10 @@
         sans-serif;
     color: #E76F51;
 }
+
+.section-three-content .accords-four,
+.section-three-content .accords-three,
+.section-three-content .accords-two,
+.section-three-content .accords-one {
+    border: 1px solid gray;
+}
