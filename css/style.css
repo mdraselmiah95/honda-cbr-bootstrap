@@ -281,6 +281,82 @@
 }
 
 /* ---------------------
+  section six Scooter
+------------------------*/
+
+.section-six-content-one h2 {
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: 'Poppins',
+        sans-serif;
+    color: #E76F51;
+}
+
+.content-card {
+    border-radius: 1rem;
+}
+
+.section-six-content-two img {
+    width: 100%;
+    transition: 0.3s ease transform;
+}
+
+.section-six-content-two img:hover {
+    transform: scale(1.1);
+}
+
+.section-six-content-two h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #1F1F1F;
+}
+
+.section-six-content-two p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #4E4E4E;
+}
+
+.section-six-content-two h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #000000;
+}
+
+.section-six-btn-one,
+.section-six-btn-two,
+.section-six-btn-three,
+.section-six-btn-four {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4E4E4E;
+    transition: 0.5s ease;
+}
+
+.section-six-btn-one:hover {
+    color: white;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.section-six-btn-two:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #142033 -10.89%, #1e0d57 92.77%);
+}
+
+.section-six-btn-three:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #b9bb41 -10.89%, #d7e659 92.77%);
+}
+
+.section-six-btn-four:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #b5c3da -10.89%, #28a586 92.77%);
+}
+
+
+/* ---------------------
       footer section 
 ------------------------*/
 
