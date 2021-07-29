@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+/* ---------------------
+      header section
+------------------------*/
+
 #header-section {
     background-color: #264653;
 }
@@ -71,7 +75,6 @@
 .section-one-content img:hover {
     transform: scale(1.1);
 }
-
 
 /* ---------------------
   section two Clients
@@ -190,7 +193,6 @@
     -moz-border-image: linear-gradient(to right, #FF9C35, #FFD019) 1;
     -webkit-border-image: linear-gradient(to right, #FF9C35, #FFD019) 1;
 }
-
 
 .section-four-content-one h5 {
     font-size: 1.75rem;
@@ -358,7 +360,6 @@
     color: white;
     background: linear-gradient(170.41deg, #b5c3da -10.89%, #28a586 92.77%);
 }
-
 
 /* ---------------------
       footer section 
