@@ -154,6 +154,11 @@
 
 .section-four-content h3 {
     position: relative;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Poppins',
+        sans-serif;
+    color: #000000;
 }
 
 .section-four-content-one img,
@@ -171,10 +176,10 @@
     border-radius: 5px;
     position: absolute;
     left: 50%;
-    top: 2.5rem;
+    top: 4.3rem;
     bottom: 0px;
     height: 1px;
-    width: 6.563rem;
+    width: 13.563rem;
     transform: translate(-50%, 0);
     border-bottom: 6px solid;
     border-image: linear-gradient(to right, #FF9C35, #FFD019) 1;
@@ -198,4 +203,90 @@
 
 .section-four-card-three {
     border-radius: 20px 4px 40px 4px;
+}
+
+/* ---------------------
+  section five SPORT
+------------------------*/
+
+.section-five-content-one h2 {
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: 'Poppins',
+        sans-serif;
+    color: #E76F51;
+}
+
+.content-card {
+    border-radius: 1rem;
+}
+
+.section-five-content-two img {
+    width: 100%;
+    transition: 0.3s ease transform;
+}
+
+.section-five-content-two img:hover {
+    transform: scale(1.1);
+}
+
+.section-five-content-two h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #1F1F1F;
+}
+
+.section-five-content-two p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #4E4E4E;
+}
+
+.section-five-content-two h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #000000;
+}
+
+.section-five-btn-one,
+.section-five-btn-two,
+.section-five-btn-three,
+.section-five-btn-four {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4E4E4E;
+    transition: 0.5s ease;
+}
+
+.section-five-btn-one:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #52ff42 -10.89%, #07b4f8 92.77%);
+}
+
+.section-five-btn-two:hover {
+    color: white;
+    background: linear-gradient(180deg, #fcff58 -0.01%, #42ff13 99.99%);
+}
+
+.section-five-btn-three:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #142033 -10.89%, #1e0d57 92.77%);
+}
+
+.section-five-btn-four:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #b5c3da -10.89%, #28a586 92.77%);
+}
+
+/* ---------------------
+      footer section 
+------------------------*/
+
+footer p {
+    color: gray;
+    letter-spacing: 1px;
+    font-family: 'Poppins',
+        sans-serif;
 }
