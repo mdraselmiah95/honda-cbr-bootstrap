@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 #header-section {
     background-color: #264653;
 }
@@ -32,9 +31,14 @@
     color: #E0E0E0;
 }
 
-.carousel-section-btn {
+.header-section-btn {
     background: #E76F51;
     border-radius: 5px;
+}
+
+.section-modal-content {
+    background-color: #264653;
+    color: #E0E0E0;
 }
 
 /* ---------------------
