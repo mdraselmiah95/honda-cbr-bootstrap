@@ -1,528 +1,925 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Honda-CDR</title>
 
     <!----------- 
         favicon 
     -------------->
-    <link rel="shortcut icon" href="./images/motorcycle.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./images/motorcycle.png"
+      type="image/x-icon"
+    />
 
     <!-- --------------------
     bootstrap cdn link
    ------------------------>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!-- -------------------------
         bootstrap icon cdn link
     -------------------------- -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
 
     <!-- -----------------
         fontawesome cdn 
     ---------------------->
-    <script src="https://kit.fontawesome.com/d0048e2ab3.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/d0048e2ab3.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- --------------------
          main css link
    ------------------------>
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-</head>
-
-
-
-<body>
-
+  <body>
     <header>
-
-        <!-- ------------------
+      <!-- ------------------
          header section start 
         ----------------------->
 
-        <section id="header-section">
-            <div class="header-section-container container">
-                <div class=" row d-flex align-items-center p-4">
-                    <div class="col-lg-6">
-                        <p class="Paragraph-one">Computer-controlled digital transistorized with electronic advance</p>
-                        <h1>Honda CBR 300R</h1>
-                        <p class="Paragraph-two"> If you’ve got a soft spot for sport bike design and Grand Prix
-                            stylings, then the 2021 Honda
-                            CBR300R is your sweet spot between form and function. Time to get riding! </p>
-                        <!-- Button trigger modal -->
-                        <div class="header-section-btn btn px-5 py-2" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">Purchase
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content section-modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Honda CBR 300R</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h2>CBR300R ABS</h2>
-                                        <h5>MSRP: $4,999</h5>
-                                        <h3>Standard Features</h3>
-                                        <ul>
-                                            <li>286cc liquid-cooled single-cylinder engine</li>
-                                            <li>Low seat height</li>
-                                            <li>Programmed Fuel Injection</li>
-                                            <li>Analog/Digital Instrumentation</li>
-                                        </ul>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">BUY NOW</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <section id="header-section">
+        <div class="header-section-container container">
+          <div class="row d-flex align-items-center p-4">
+            <div class="col-lg-6">
+              <p class="Paragraph-one">
+                Computer-controlled digital transistorized with electronic
+                advance
+              </p>
+              <h1>Honda CBR 300R</h1>
+              <p class="Paragraph-two">
+                If you’ve got a soft spot for sport bike design and Grand Prix
+                stylings, then the 2021 Honda CBR300R is your sweet spot between
+                form and function. Time to get riding!
+              </p>
+              <!-- Button trigger modal -->
+              <div
+                class="header-section-btn btn px-5 py-2"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Purchase
+              </div>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content section-modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Honda CBR 300R
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
                     </div>
-                    <div class="col-lg-6 p-5">
-                        <img class="img-fluid" src="./images/header-bike.png" alt="bike">
+                    <div class="modal-body">
+                      <h2>CBR300R ABS</h2>
+                      <h5>MSRP: $4,999</h5>
+                      <h3>Standard Features</h3>
+                      <ul>
+                        <li>286cc liquid-cooled single-cylinder engine</li>
+                        <li>Low seat height</li>
+                        <li>Programmed Fuel Injection</li>
+                        <li>Analog/Digital Instrumentation</li>
+                      </ul>
                     </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        BUY NOW
+                      </button>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+            <div class="col-lg-6 p-5">
+              <img
+                class="img-fluid"
+                src="./images/header-bike.png"
+                alt="bike"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
 
-
     <main>
-
-        <!-- --------------------
+      <!-- --------------------
           section one Featured
       -------------------------->
 
-        <div id="section-one-feature" class="section-one-container container text-center p-4">
-            <h2 class="px-2">Featured Bikes 2021</h2>
-            <p>Best bike collection</p>
-            <div class="section-one-content row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 mx-auto py-5">
-                <div class="col">
-                    <img class="section-one-bike-one img-fluid" src="./images/feature-bike.jpg" alt="bike">
-                </div>
-                <div class="col">
-                    <img class="section-one-bike-two img-fluid" src="./images/feature-bike.jpg" alt="bike">
-                </div>
-                <div class="col">
-                    <img class="section-one-bike-three img-fluid" src="./images/feature-bike.jpg" alt="bike">
-                </div>
-            </div>
+      <div
+        id="section-one-feature"
+        class="section-one-container container text-center p-4"
+      >
+        <h2 class="px-2">Featured Bikes 2021</h2>
+        <p>Best bike collection</p>
+        <div
+          class="
+            section-one-content
+            row row-cols-1 row-cols-md-2 row-cols-lg-3
+            gy-4
+            mx-auto
+            py-5
+          "
+        >
+          <div class="col">
+            <img
+              class="section-one-bike-one img-fluid"
+              src="./images/feature-bike.jpg"
+              alt="bike"
+            />
+          </div>
+          <div class="col">
+            <img
+              class="section-one-bike-two img-fluid"
+              src="./images/feature-bike.jpg"
+              alt="bike"
+            />
+          </div>
+          <div class="col">
+            <img
+              class="section-one-bike-three img-fluid"
+              src="./images/feature-bike.jpg"
+              alt="bike"
+            />
+          </div>
         </div>
+      </div>
 
-        <!-- --------------------
+      <!-- --------------------
           section two Clients
       -------------------------->
 
-        <div id="Clients">
-            <div class="section-two-container container p-4">
-                <div class="section-two-content-one text-center">
-                    <h2>
-                        <span class="one">Happy</span>
-                        <span class="two"> Clients says</span>
-                    </h2>
+      <div id="Clients">
+        <div class="section-two-container container p-4">
+          <div class="section-two-content-one text-center">
+            <h2>
+              <span class="one">Happy</span>
+              <span class="two"> Clients says</span>
+            </h2>
+          </div>
+          <div
+            class="
+              section-two-content-two
+              my-1
+              row row-cols-1 row-cols-md-2 row-cols-lg-3
+              gy-5
+            "
+          >
+            <!-- Client-one -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  border-1
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top w-auto"
+                  src="./images/user-1.png"
+                  alt="user-1"
+                />
+                <div class="card-body">
+                  <p>
+                    Slate helps you see how many more days you need to work to
+                    reach your financial goal for the month and year.
+                  </p>
+                  <br />
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                  <h3>Regina Miles</h3>
+                  <h4>Banker</h4>
                 </div>
-                <div class="section-two-content-two my-1 row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
-                    <!-- Client-one -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center border-1 p-4">
-                            <img class="card-img-top w-auto" src="./images/user-1.png" alt="user-1">
-                            <div class="card-body">
-                                <p>Slate helps you see how
-                                    many more days you need
-                                    to work to reach your financial
-                                    goal for the month and year.</p> <br>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
-                                <h3>Regina Miles</h3>
-                                <h4>Banker</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Client-two -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center border-1 p-4">
-                            <img class="card-img-top w-auto" src="./images/user-2.png" alt="user-2">
-                            <div class="card-body">
-                                <p>Slate helps you see how
-                                    many more days you need
-                                    to work to reach your financial
-                                    goal for the month and year.</p> <br>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
-                                <h3>Rose Olivia</h3>
-                                <h4>Doctor</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Client-three -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center border-1 p-4">
-                            <img class="card-img-top w-auto rounded-circle" src="./images/user-3.jpg" alt="user-3">
-                            <div class="card-body">
-                                <p>Slate helps you see how
-                                    many more days you need
-                                    to work to reach your financial
-                                    goal for the month and year.</p> <br>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
-                                <h3>Isabella Nora</h3>
-                                <h4>Dentist</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <!-- Client-two -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  border-1
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top w-auto"
+                  src="./images/user-2.png"
+                  alt="user-2"
+                />
+                <div class="card-body">
+                  <p>
+                    Slate helps you see how many more days you need to work to
+                    reach your financial goal for the month and year.
+                  </p>
+                  <br />
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                  <h3>Rose Olivia</h3>
+                  <h4>Doctor</h4>
+                </div>
+              </div>
+            </div>
+            <!-- Client-three -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  border-1
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top w-auto rounded-circle"
+                  src="./images/user-3.jpg"
+                  alt="user-3"
+                />
+                <div class="card-body">
+                  <p>
+                    Slate helps you see how many more days you need to work to
+                    reach your financial goal for the month and year.
+                  </p>
+                  <br />
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                  <h3>Isabella Nora</h3>
+                  <h4>Dentist</h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <!-- --------------------
+      <!-- --------------------
           section three Questions
       -------------------------->
 
-        <div id="section-three">
-            <div class="section-three-container container text-center pt-5 p-4">
-                <h2>
-                    <span class="one">Frequently Asked </span>
-                    <span class="two">Questions</span>
-                </h2>
-                <div class="section-three-content  row d-flex align-items-center py-5 mx-auto gy-3">
-                    <div class="col-lg-6">
-                        <img class="img-fluid" src="./images/faq.png" alt="faq">
-                    </div>
-                    <!-- accordion-->
-                    <div class="col-lg-6">
-                        <div class="accordion" id="accordionExample">
-                            <!-- accordion 1-->
-                            <div class="accordion-item accords-one mb-3">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        What are the most important things I should
-                                        know about riding a bike?
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
-                                        signs,
-                                        and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
-                                        This will help you be a more focused and legally compliant bike rider.
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- accordion 2-->
-                            <div class="accordion-item accords-two mb-3">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        How can I tell if my helmet is old and I need a
-                                        new one?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Bear in mind that if the helmet did its job most people would tell you that they
-                                        did not even hit their head, or did not hit their head that hard. And the thin
-                                        shells on most helmets now tend to hide any dents in the foam. But if you can
-                                        see
-                                        marks on the shell or measure any foam crush at all, replace the helmet
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- accordion 3-->
-                            <div class="accordion-item accords-three mb-3">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        My bike has been in storage is it safe to ride?
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Leaving your bike outside for a day or two won’t do major damage. You may see
-                                        signs of rust after a week of neglect. After one month in bad conditions, your
-                                        beloved bike parts will start to degrade. The money you’ll spend having to
-                                        replace corroded parts could have been spent on an easy storage solution such as
-                                        a small-space gravity rack or a vertical hanging system.
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- accordion 4-->
-                            <div class="accordion-item accords-four">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour">
-                                        What rules should I follow when riding my bike?
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <h3>Safe Riding Tips</h3>
-                                        <ul>
-                                            <li>Wear a Properly Fitted Bicycle Helmet.</li>
-                                            <li>Adjust Your Bicycle to Fit</li>
-                                            <li>Check Your Equipment.</li>
-                                            <li>Watch for and Avoid Road Hazards. </li>
-                                            <li>Avoid Riding at Night. </li>
-                                            <li>Go With the Traffic Flow</li>
-                                            <li>Yield to Traffic When Appropriate.</li>
-                                            <li>Stay Alert at All Times</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div id="section-three">
+        <div class="section-three-container container text-center pt-5 p-4">
+          <h2>
+            <span class="one">Frequently Asked </span>
+            <span class="two">Questions</span>
+          </h2>
+          <div
+            class="
+              section-three-content
+              row
+              d-flex
+              align-items-center
+              py-5
+              mx-auto
+              gy-3
+            "
+          >
+            <div class="col-lg-6">
+              <img class="img-fluid" src="./images/faq.png" alt="faq" />
             </div>
+            <!-- accordion-->
+            <div class="col-lg-6">
+              <div class="accordion" id="accordionExample">
+                <!-- accordion 1-->
+                <div class="accordion-item accords-one mb-3">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      What are the most important things I should know about
+                      riding a bike?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Safety First! Always obey the rules of the road. Obey all
+                      traffic signals, signs, and laws. Get in the mindset of
+                      “driving” your bike—not just “riding” your bike. This will
+                      help you be a more focused and legally compliant bike
+                      rider.
+                    </div>
+                  </div>
+                </div>
+                <!-- accordion 2-->
+                <div class="accordion-item accords-two mb-3">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      How can I tell if my helmet is old and I need a new one?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Bear in mind that if the helmet did its job most people
+                      would tell you that they did not even hit their head, or
+                      did not hit their head that hard. And the thin shells on
+                      most helmets now tend to hide any dents in the foam. But
+                      if you can see marks on the shell or measure any foam
+                      crush at all, replace the helmet
+                    </div>
+                  </div>
+                </div>
+                <!-- accordion 3-->
+                <div class="accordion-item accords-three mb-3">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      My bike has been in storage is it safe to ride?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Leaving your bike outside for a day or two won’t do major
+                      damage. You may see signs of rust after a week of neglect.
+                      After one month in bad conditions, your beloved bike parts
+                      will start to degrade. The money you’ll spend having to
+                      replace corroded parts could have been spent on an easy
+                      storage solution such as a small-space gravity rack or a
+                      vertical hanging system.
+                    </div>
+                  </div>
+                </div>
+                <!-- accordion 4-->
+                <div class="accordion-item accords-four">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      What rules should I follow when riding my bike?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <h3>Safe Riding Tips</h3>
+                      <ul>
+                        <li>Wear a Properly Fitted Bicycle Helmet.</li>
+                        <li>Adjust Your Bicycle to Fit</li>
+                        <li>Check Your Equipment.</li>
+                        <li>Watch for and Avoid Road Hazards.</li>
+                        <li>Avoid Riding at Night.</li>
+                        <li>Go With the Traffic Flow</li>
+                        <li>Yield to Traffic When Appropriate.</li>
+                        <li>Stay Alert at All Times</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <!-- ----------------------
+      <!-- ----------------------
           section four Categories
       ---------------------------->
 
-        <section id="Categorie" class="section-four-container">
-            <div class="section-four-content container p-4 align-items-center text-center">
-                <h3 class="mb-5">Categories</h3>
-                <div class="row align-items-center">
-                    <div class="section-four-content-one col-sm-6 col-lg-6">
-                        <div class="row align-items-center gy-5">
-                            <div class="col-md-6 col-lg-5">
-                                <div class="section-four-card-one card align-items-center border-0 p-3 shadow">
-                                    <img class="card-img-top img-fluid p-3" src="./images/c-bike-1.png" alt="bike-1">
-                                    <h5 class="card-title">Red</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-5 d-flex flex-column">
-                                <div class="section-four-card-two card align-items-center border-0 p-3 mb-2 shadow">
-                                    <img class="card-img-top img-fluid p-3" src="./images/c-bike-2.png" alt="bike">
-                                    <h5 class="card-title">Green</h5>
-                                </div>
-                                <div class="section-four-card-three card align-items-center border-0 p-3 mt-3 shadow">
-                                    <img class="card-img-top img-fluid p-3" src="./images/c-bike-3.png" alt="bike">
-                                    <h5 class="card-title">Blue</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section-four-content-two col-sm-6 col-lg-6">
-                        <img class="img-fluid" src="./images/pale-order.png" alt="pale order">
-                    </div>
+      <section id="Categorie" class="section-four-container">
+        <div
+          class="
+            section-four-content
+            container
+            p-4
+            align-items-center
+            text-center
+          "
+        >
+          <h3 class="mb-5">Categories</h3>
+          <div class="row align-items-center">
+            <div class="section-four-content-one col-sm-6 col-lg-6">
+              <div class="row align-items-center gy-5">
+                <div class="col-md-6 col-lg-5">
+                  <div
+                    class="
+                      section-four-card-one
+                      card
+                      align-items-center
+                      border-0
+                      p-3
+                      shadow
+                    "
+                  >
+                    <img
+                      class="card-img-top img-fluid p-3"
+                      src="./images/c-bike-1.png"
+                      alt="bike-1"
+                    />
+                    <h5 class="card-title">Red</h5>
+                  </div>
                 </div>
+                <div class="col-md-6 col-lg-5 d-flex flex-column">
+                  <div
+                    class="
+                      section-four-card-two
+                      card
+                      align-items-center
+                      border-0
+                      p-3
+                      mb-2
+                      shadow
+                    "
+                  >
+                    <img
+                      class="card-img-top img-fluid p-3"
+                      src="./images/c-bike-2.png"
+                      alt="bike"
+                    />
+                    <h5 class="card-title">Green</h5>
+                  </div>
+                  <div
+                    class="
+                      section-four-card-three
+                      card
+                      align-items-center
+                      border-0
+                      p-3
+                      mt-3
+                      shadow
+                    "
+                  >
+                    <img
+                      class="card-img-top img-fluid p-3"
+                      src="./images/c-bike-3.png"
+                      alt="bike"
+                    />
+                    <h5 class="card-title">Blue</h5>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="section-four-content-two col-sm-6 col-lg-6">
+              <img
+                class="img-fluid"
+                src="./images/pale-order.png"
+                alt="pale order"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- ----------------------
+      <!-- ----------------------
           section five SPORT
       ---------------------------->
 
-        <section id="products" class="section-five-sport">
-            <div class="section-five-content-one container p-4">
-                <div class="text-center align-items-center py-3">
-                    <h2>SPORT</h2>
+      <section id="products" class="section-five-sport">
+        <div class="section-five-content-one container p-4">
+          <div class="text-center align-items-center py-3">
+            <h2>SPORT</h2>
+          </div>
+          <div
+            class="
+              section-five-content-two
+              row row-cols-1 row-cols-md-2 row-cols-lg-4
+              gy-4
+            "
+          >
+            <!-- SPORT 1 -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  shadow
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top"
+                  src="./images/sports/green-4.png"
+                  alt="sport-1"
+                />
+                <div class="card-body">
+                  <h4>CB1000R GREEN</h4>
+                  <p>
+                    The Honda CB1000R has built its reputation on powerful,
+                    understated performance combined.
+                  </p>
+                  <h5>$1299</h5>
                 </div>
-                <div class="section-five-content-two row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4">
-                    <!-- SPORT 1 -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center shadow p-4">
-                            <img class="card-img-top" src="./images/sports/green-4.png" alt="sport-1">
-                            <div class="card-body">
-                                <h4>CB1000R GREEN</h4>
-                                <p>The Honda CB1000R has built its reputation on powerful, understated performance
-                                    combined.</p>
-                                <h5>$1299</h5>
-                            </div>
-                            <div class="">
-                                <div class="section-five-btn-one btn btn-outline-success px-4 py-2">Buy Now <i
-                                        class="fas fa-long-arrow-alt-right ms-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- SPORT 2 -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center shadow p-4">
-                            <img class="card-img-top" src="./images/sports/yellow-3.png" alt="sport-2">
-                            <div class="card-body">
-                                <h4>CBR650R ABS</h4>
-                                <p>Four-cylinder sport bikes are a specialized breed. Smooth, quick-revving power, fast,
-                                    effortless acceleration.</p>
-                                <h5>$9699</h5>
-                            </div>
-                            <div class="">
-                                <div class="section-five-btn-two btn btn-outline-warning px-4 py-2">Buy Now <i
-                                        class="fas fa-long-arrow-alt-right ms-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- SPORT 3 -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center shadow p-4">
-                            <img class="card-img-top" src="./images/sports/back-2.png" alt="sport-3">
-                            <div class="card-body">
-                                <h4>CB650R ABS</h4>
-                                <p>Honda’s legendary CB750K0 introduced the motorcycling world to the modern
-                                    inline-four.</p>
-                                <h5>$9199</h5>
-                            </div>
-                            <div class="">
-                                <div class="section-five-btn-three btn btn-outline-dark px-4 py-2">Buy Now <i
-                                        class="fas fa-long-arrow-alt-right ms-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- SPORT 4 -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center shadow p-4">
-                            <img class="card-img-top" src="./images/sports/white-5.png" alt="sport-4">
-                            <div class="card-body">
-                                <h4>CBR500R ABS</h4>
-                                <p>Honda CBR500R is one of our most popular sport bikes for Power. Weight. Handling.</p>
-                                <h5>$6999</h5>
-                            </div>
-                            <div class="">
-                                <div class="section-five-btn-four btn btn-outline-secondary px-4 py-2">Buy Now <i
-                                        class="fas fa-long-arrow-alt-right ms-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                <div class="">
+                  <div
+                    class="
+                      section-five-btn-one
+                      btn btn-outline-success
+                      px-4
+                      py-2
+                    "
+                  >
+                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+            <!-- SPORT 2 -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  shadow
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top"
+                  src="./images/sports/yellow-3.png"
+                  alt="sport-2"
+                />
+                <div class="card-body">
+                  <h4>CBR650R ABS</h4>
+                  <p>
+                    Four-cylinder sport bikes are a specialized breed. Smooth,
+                    quick-revving power, fast, effortless acceleration.
+                  </p>
+                  <h5>$9699</h5>
+                </div>
+                <div class="">
+                  <div
+                    class="
+                      section-five-btn-two
+                      btn btn-outline-warning
+                      px-4
+                      py-2
+                    "
+                  >
+                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SPORT 3 -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  shadow
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top"
+                  src="./images/sports/back-2.png"
+                  alt="sport-3"
+                />
+                <div class="card-body">
+                  <h4>CB650R ABS</h4>
+                  <p>
+                    Honda’s legendary CB750K0 introduced the motorcycling world
+                    to the modern inline-four.
+                  </p>
+                  <h5>$9199</h5>
+                </div>
+                <div class="">
+                  <div
+                    class="
+                      section-five-btn-three
+                      btn btn-outline-dark
+                      px-4
+                      py-2
+                    "
+                  >
+                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SPORT 4 -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  shadow
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top"
+                  src="./images/sports/white-5.png"
+                  alt="sport-4"
+                />
+                <div class="card-body">
+                  <h4>CBR500R ABS</h4>
+                  <p>
+                    Honda CBR500R is one of our most popular sport bikes for
+                    Power. Weight. Handling.
+                  </p>
+                  <h5>$6999</h5>
+                </div>
+                <div class="">
+                  <div
+                    class="
+                      section-five-btn-four
+                      btn btn-outline-secondary
+                      px-4
+                      py-2
+                    "
+                  >
+                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- ----------------------
+      <!-- ----------------------
           section six Scooter
       ---------------------------->
 
-        <section id="products" class="section-six-scooter">
-            <div class="section-six-content-one container p-4">
-                <div class="text-center align-items-center py-3">
-                    <h2>SCOOTER</h2>
+      <section id="products" class="section-six-scooter">
+        <div class="section-six-content-one container p-4">
+          <div class="text-center align-items-center py-3">
+            <h2>SCOOTER</h2>
+          </div>
+          <div
+            class="
+              section-six-content-two
+              row row-cols-1 row-cols-md-2 row-cols-lg-4
+              gy-4
+            "
+          >
+            <!-- Scooter 1 -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  shadow
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top"
+                  src="./images/Scooters/red-4.png"
+                  alt="scooter-1"
+                />
+                <div class="card-body">
+                  <h4>Honda Activa 6G</h4>
+                  <p>The Activa 6G now looks like a scaled-down Activa 125.</p>
+                  <h5>$699</h5>
                 </div>
-                <div class="section-six-content-two row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4">
-                    <!-- Scooter 1 -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center shadow p-4">
-                            <img class="card-img-top" src="./images/Scooters/red-4.png" alt="scooter-1">
-                            <div class="card-body">
-                                <h4>Honda Activa 6G</h4>
-                                <p>The Activa 6G now looks like a scaled-down Activa 125.</p>
-                                <h5>$699</h5>
-                            </div>
-                            <div class="">
-                                <div class="section-six-btn-one btn btn-outline-danger px-4 py-2">Buy Now <i
-                                        class="fas fa-long-arrow-alt-right ms-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Scooter 2 -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center shadow p-4">
-                            <img class="card-img-top" src="./images/Scooters/black-3.png" alt="scooter-2">
-                            <div class="card-body">
-                                <h4>Honda Dio</h4>
-                                <p>It gets the same set of features as the Honda Activa 6G.</p>
-                                <h5>$949</h5>
-                            </div>
-                            <div class="">
-                                <div class="section-six-btn-two btn btn-outline-dark px-4 py-2">Buy Now <i
-                                        class="fas fa-long-arrow-alt-right ms-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Scooter 3 -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center shadow p-4">
-                            <img class="card-img-top" src="./images/Scooters/yellow-1.png" alt="scooter-3">
-                            <div class="card-body">
-                                <h4>Honda Activa 125</h4>
-                                <p>As part of its BS6 updates, the Honda Activa 125 gets an LED headlamp.</p>
-                                <h5>$1050</h5>
-                            </div>
-                            <div class="">
-                                <div class="section-six-btn-three btn btn-outline-warning px-4 py-2">Buy Now <i
-                                        class="fas fa-long-arrow-alt-right ms-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Scooter 4 -->
-                    <div class="col">
-                        <div class="content-card card h-100 align-items-center text-center shadow p-4">
-                            <img class="card-img-top" src="./images/Scooters/green-2.png" alt="scooter-4">
-                            <div class="card-body">
-                                <h4>Honda Grazia</h4>
-                                <p>The Honda Grazia BS6 comes with an all-new sportier bodywork with sharper LED
-                                    headlamps.
-                                </p>
-                                <h5>$1150</h5>
-                            </div>
-                            <div class="">
-                                <div class="section-six-btn-four btn btn-outline-success px-4 py-2">Buy Now <i
-                                        class="fas fa-long-arrow-alt-right ms-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="">
+                  <div
+                    class="section-six-btn-one btn btn-outline-danger px-4 py-2"
+                  >
+                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+            <!-- Scooter 2 -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  shadow
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top"
+                  src="./images/Scooters/black-3.png"
+                  alt="scooter-2"
+                />
+                <div class="card-body">
+                  <h4>Honda Dio</h4>
+                  <p>
+                    It gets the same set of features as the Honda Activa 6G.
+                  </p>
+                  <h5>$949</h5>
+                </div>
+                <div class="">
+                  <div
+                    class="section-six-btn-two btn btn-outline-dark px-4 py-2"
+                  >
+                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Scooter 3 -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  shadow
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top"
+                  src="./images/Scooters/yellow-1.png"
+                  alt="scooter-3"
+                />
+                <div class="card-body">
+                  <h4>Honda Activa 125</h4>
+                  <p>
+                    As part of its BS6 updates, the Honda Activa 125 gets an LED
+                    headlamp.
+                  </p>
+                  <h5>$1050</h5>
+                </div>
+                <div class="">
+                  <div
+                    class="
+                      section-six-btn-three
+                      btn btn-outline-warning
+                      px-4
+                      py-2
+                    "
+                  >
+                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Scooter 4 -->
+            <div class="col">
+              <div
+                class="
+                  content-card
+                  card
+                  h-100
+                  align-items-center
+                  text-center
+                  shadow
+                  p-4
+                "
+              >
+                <img
+                  class="card-img-top"
+                  src="./images/Scooters/green-2.png"
+                  alt="scooter-4"
+                />
+                <div class="card-body">
+                  <h4>Honda Grazia</h4>
+                  <p>
+                    The Honda Grazia BS6 comes with an all-new sportier bodywork
+                    with sharper LED headlamps.
+                  </p>
+                  <h5>$1150</h5>
+                </div>
+                <div class="">
+                  <div
+                    class="
+                      section-six-btn-four
+                      btn btn-outline-success
+                      px-4
+                      py-2
+                    "
+                  >
+                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
+    <!-- new -->
     <footer>
-
-        <!-- ----------------------
+      <!-- ----------------------
             footer section 
       ---------------------------->
 
-        <div class="text-center p-5">
-            <p> Copyright &copy; Md Rasel mia by 2021</p>
-        </div>
-
+      <div class="text-center p-5">
+        <p>Copyright &copy; Md Rasel mia by 2021</p>
+      </div>
     </footer>
 
     <!-- -----------------
          script cnd link 
      ---------------------->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
